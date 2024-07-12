@@ -25,7 +25,14 @@ positions = [
         'title' : 'Product Manager',
         'location' : 'California',
         'salary' : '$. 150, 000'
+    },
+    {
+        'id' : 5,
+        'title' : 'Data Scientist',
+        'location' : 'Seatel , USA',
+        'salary' : '$. 150, 000'
     }
+    
 ]
 @app.route('/')
 def hello_world():
